@@ -1,12 +1,46 @@
-# React + Vite
+# Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React** web app that converts currencies in real-time using a public API. Built with modern React hooks and deployed on **Vercel**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time currency conversion with latest rates  
+- Select from multiple currencies  
+- Responsive and user-friendly interface  
+- Built using React hooks (`useState`, `useEffect`)  
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React  
+- JavaScript  
+- CSS  
+- Vercel (Deployment)  
+- Public Currency API ([Fawaz Ahmed Currency API](https://github.com/fawazahmed0/currency-api))
+
+## Installation
+
+1. Clone the repository:
+git clone <YOUR_REPO_URL>
+
+2. Navigate to the project folder:
+cd currency-converter
+
+3. Install dependencies:
+npm install
+
+4. Run the app locally:
+npm start
+
+5. Deployment
+This project is deployed on Vercel. You can access it here:
+https://your-currency-converter.vercel.app
+
+6. Usage
+- Enter the amount you want to convert.
+
+- Select the source and target currencies.
+
+- See the converted value instantly.
+
+License
+This project is open source and available under the MIT License.
