@@ -33,7 +33,7 @@ npm start
 
 5. Deployment
 This project is deployed on Vercel. You can access it here:
-https://your-currency-converter.vercel.app
+[https://your-currency-converter.vercel.app](https://currency-converter-alpha-seven-72.vercel.app/)
 
 6. Usage
 - Enter the amount you want to convert.
